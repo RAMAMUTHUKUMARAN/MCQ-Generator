@@ -2,7 +2,7 @@
 from generator import MCQGenerator
 import os
 # Replace with your actual Gemini API key
-API_KEY = "AIzaSyBlVjr8l9d58nzmD1F4YLr17Qa1oTEty3s"
+API_KEY = os.environ.get("GEMINI_API_KEY")
 
 mcq_gen = MCQGenerator(api_key=API_KEY)
 topic = "Photosynthesis"

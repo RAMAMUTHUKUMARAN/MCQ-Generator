@@ -45,7 +45,7 @@ class MCQApp:
     def __init__(self, root):
         self.root = root
         self.root.title("PDF MCQ Generator (Gemini RAG)")
-        self.api_key = "AIzaSyBlVjr8l9d58nzmD1F4YLr17Qa1oTEty3s"
+        self.api_key = os.environ.get("GEMINI_API_KEY")
         if not self.api_key:
             messagebox.showerror("API Key Error", "GEMINI_API_KEY environment variable not set.")
             root.destroy()
