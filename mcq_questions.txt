@@ -1,0 +1,8 @@
+Question: Which of the following is the primary function of chlorophyll in photosynthesis?
+  A. To absorb light energy
+  B. To transport water to the leaves
+  C. To release oxygen into the atmosphere
+  D. To convert glucose into starch
+Answer: A
+Explanation: Chlorophyll is a pigment that absorbs light energy, primarily in the red and blue regions of the electromagnetic spectrum. This absorbed light energy is then used to drive the process of photosynthesis.
+----------------------------------------

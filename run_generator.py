@@ -1,0 +1,13 @@
+# filepath: c:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\mcq generator\run_generator.py
+from generator import MCQGenerator
+import os
+# Replace with your actual Gemini API key
+API_KEY = "AIzaSyBlVjr8l9d58nzmD1F4YLr17Qa1oTEty3s"
+
+mcq_gen = MCQGenerator(api_key=API_KEY)
+topic = "Photosynthesis"
+complexity = 2
+history = []
+
+result = mcq_gen.generate_mcq(topic, complexity, history)
+mcq_gen.save_mcq_to_txt(result)
